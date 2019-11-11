@@ -1,0 +1,27 @@
+*.class
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.classpath
+.project
+.settings/
+test-output
+ScreenShots/
+
+# Intellij
+.idea/
+out/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
