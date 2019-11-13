@@ -1,0 +1,7 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Nov 08 14:18:33 EET 2019
+jbehaveTest/LoginNegative.story=0
+jbehaveTest/Login.story=32000
+threads=1
+total=32000
+threadAverage=32000

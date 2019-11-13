@@ -1,0 +1,16 @@
+<div class="story">
+<h1></h1>
+<div class="path">jbehaveTest/Login.story</div>
+<div class="scenario">
+<h2>Scenario: Verify that user is logged in with valid credentials</h2>
+<div class="step successful">Given that American Airlines site &quot;https://www.aadvantageeshopping.com/index.php?p=h&quot; is opened</div>
+<div class="step successful">When user click on login button and user enter account number &quot;7W05VC2&quot; and user enter password &quot;Pa55word&quot;</div>
+<div class="step successful">Then user is logged in and user go to the main page.</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Verify that user is not logged in with invalid credentials</h2>
+<div class="step successful">Given that American Airlines site &quot;https://www.aadvantageeshopping.com/index.php?p=h&quot; is opened</div>
+<div class="step successful">When user click on login button and user enter account number &quot;7W05VC2&quot; and user enter password &quot;InvalidTest&quot;</div>
+<div class="step successful">Then user is not logged in and user get error message.</div>
+</div>
+</div>
